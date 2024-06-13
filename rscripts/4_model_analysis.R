@@ -113,6 +113,7 @@ initial_results <- bind_rows(nbayes,
 
 
 # Best Model: Random Forest 
+# Taking to Next Round: Random Forest, Boosted tree, Neural Network, and SVM Polynomial
 
 # write out results (plots, tables)
 write_rds(intital_results, file = here("results/tuned_models/initial_results.rds"))
